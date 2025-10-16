@@ -11,7 +11,7 @@ npm-workspace-deps@1.0.0
 └─┬ app-two@1.0.0 -> ./apps/app-two
   └── next@15.5.5
 
-> turbo prune app-two
+> npx turbo prune app-two
 > cd out
 > npm ci
 
@@ -21,3 +21,5 @@ npm error `npm ci` can only install packages when your package.json and package-
 npm error
 npm error Missing: next@15.5.5 from lock file
 ```
+
+`legacy-peer-deps=true` in .npmrc seems to solve the install issue. Why?
