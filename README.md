@@ -1,5 +1,7 @@
 # WTF deps
 
+https://github.com/vercel/turborepo/issues/10985
+
 ```
 > npm i
 > npm ls next
