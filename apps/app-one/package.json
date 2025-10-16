@@ -1,0 +1,16 @@
+{
+  "name": "app-one",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "dependencies": {
+    "@matt/components": "*",
+    "next": "^14.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
